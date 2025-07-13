@@ -31,6 +31,6 @@
 | flag\_3           | —                | Boolean flag indicating whether excess\_num\_g + excess\_num\_r $>$ 2. |
 | flag\_4           | —                | Boolean flag indicating whether delta\_bic $<$ 10. |
 | flag\_5           | —                | Boolean flag indicating whether $t_0 + t_e > \max(\mathrm{MJD})$ or $t_0 - t_g < \min(\mathrm{MJD})$. |
-| flag\_6           | —                | Boolean flag indicating whether $\min(\mathrm{flare\_point\_g}, \mathrm{flare\_point\_r}) < (t_g + t_e)/20$. |
-| flag\_7           | —                | Boolean flag indicating whether $\min(A_g/r0_g, A_r/r0_r) < 0.2$. |
+| flag\_6           | —                | Boolean flag indicating whether min(flare\_point\_g, flare\_point\_r) < (t_g + t_e)/20. |
+| flag\_7           | —                | Boolean flag indicating whether \min(A_g/r0_g, A_r/r0_r) < 0.2. |
 | flag\_8           | —                | Boolean flag indicating whether this AGN is confused with other sources. |
