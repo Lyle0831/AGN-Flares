@@ -11,6 +11,8 @@
 | source            | —                | Source catalog: 'M' for Milliquas, 'D' for DESI, 'L' for LAMOST, 'Q' for Quaia, and 'W' for WISE. |
 | type              | —                | Source type, including 'Blazar', 'SN', and 'TDE'. |
 | ALeRCE            | —                | Classification result from the ALeRCE. |
+| prob\_diff\_top2  | —                | Difference between the highest and the second-highest class probabilities from the ALeRCE. |
+| alert\_offset     | —                | Angular separation between the ZTF alert position (from ALeRCE) and the AGN coordinates. |
 | t0                | MJD              | $t_{0}$, peak time of the flare. |
 | te                | day              | $t_{e}$, exponential decay timescale of the flare. |
 | tg                | day              | $t_{g}$, gaussian rise timescale of the flare. |
